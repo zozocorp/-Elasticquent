@@ -1,5 +1,5 @@
 {
-  "name": "elasticquent/elasticquent",
+  "name": "zozocorp/elasticquent",
   "type": "library",
   "description": "Maps Laravel Eloquent models to Elasticsearch types.",
   "keywords": [
@@ -7,13 +7,13 @@
     "eloquent",
     "laravel"
   ],
-  "homepage": "https://github.com/elasticquent/Elasticquent",
+  "homepage": "https://github.com/zozocorp/elasticquent",
   "license": "MIT",
   "authors": [
     {
-      "name": "Adam Fairholm",
-      "email": "adam.fairholm@gmail.com",
-      "homepage": "http://adamfairholm.com"
+      "name": "Le Thi",
+      "email": "ledinhthi2909@gmail.com",
+      "homepage": "https://zozo.vn"
     }
   ],
   "require": {
@@ -29,12 +29,22 @@
   },
   "autoload": {
     "psr-4": {
-      "Elasticquent\\": "src/"
+      "zozocorp\\elasticquent\\": "src/"
     }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "zozocorp\\elasticquent\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
   },
   "extra": {
     "branch-alias": {
       "dev-master": "1.0-dev"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
